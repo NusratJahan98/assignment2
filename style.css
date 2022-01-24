@@ -1,0 +1,490 @@
+
+tran{
+    margin: 0px;
+    padding: 0px;
+/* display:block; */
+}
+body{margin: 0px;padding: 0px;}
+img{
+display: block;
+width: 100%;
+}
+/* header section start */
+.header-section{
+}
+header{
+    display: flex;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+   
+
+}
+.lawyer{
+max-width: 20%;
+flex-basis: 20%;
+
+}
+.logo{
+    color: blue;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+
+
+nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+nav ul li{
+    padding: 18px;
+    text-decoration: none;
+
+}
+nav :hover{
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1a1717;
+}
+/* header section end */
+
+/* banner section start */
+.banner-section{
+    position: relative;
+}
+.blue-banner{}
+.orange-banner{
+    position: absolute;
+    top: 0;
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-detail{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.click-down{
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: arrow-down;
+    font-size: 24px;
+}
+.click-down i{}
+@keyframes arrow-down {
+    0%{
+        bottom: 80px;
+    }
+    50%{
+        bottom:40px;
+    }
+    100%{
+        bottom:80px;
+    }
+}
+/* banner section end */
+
+/* who we are section start */
+.who-we-are{
+margin: 100px 0px;
+}
+.conntainar{
+/* width: 1000px; */
+/* margin: auto; */
+}
+.whoweare-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.whoweare-content{
+max-width: 50%;
+flex-basis: 50%;
+/* text-align: center; */
+}
+.whoweare-span{width: 50px;
+    height: 5px;
+    background-color: chocolate;
+    display: block;
+    margin: revert;
+}
+.whoweare-heading{
+font-size: 32px;
+text-transform: uppercase;
+margin: 20px 0px;
+color: blue;
+}
+.whoweare-content p{
+font-size: 18px;
+color: rgb(99, 79, 79);
+text-align: justify;
+
+}
+.whoweare-image{
+max-width: 45%;
+flex-basis: 45%;
+}
+.whoweare-image img{
+width: 70%;
+float: right;
+}
+/* who we are section end */
+
+/* what we do section start */
+.what-we-do{
+
+background-color: #6e6e6e17;
+
+background-image: url(images/whatwedo_bg.png);
+
+background-repeat: no-repeat;
+
+background-position: right bottom;
+
+background-size: 52% 77%;
+}
+
+.what-we-do-content{text-align: center;padding-top: 50px;}
+span{
+
+}
+.what-we-do-heading{
+
+font-size: 40px;
+
+text-transform: uppercase;
+
+color: blue;
+}
+.what-we-do-boxs{display: grid;grid-template-columns: repeat(3, 1fr);grid-column-gap: 2em;padding-bottom: 120px;}
+.what-we-do-box{
+    /* position:relative; */
+    /* transform: translateY(-50%); */
+    /* top: 50%; */
+    position: relative;
+}
+.what-we-do-box img{
+    
+
+}
+.image-cover{
+
+height: 100%;
+
+width: 100%;
+
+background-color: #1600ff29;
+
+position: absolute;
+
+top: 0;
+display: none;
+}
+
+.what-we-do-box:hover .image-cover{
+    display: block;
+}
+.what-we-do-name{
+    
+color: #fff;
+    
+position: absolute;
+    
+top: 50%;
+    
+transform: translate(-20%, -50%);
+    
+left: 20%;
+display: none;
+}
+.what-we-do-box:hover .what-we-do-name{
+    display: block;
+}
+.what-we-do-box i{
+    
+color: #fff;
+    
+position: absolute;
+    
+top: 60%;
+    
+transform: translate(-20%, -60%);
+    
+left: 20%;
+    
+font-size: 20px;
+
+display: none;
+}
+.what-we-do-box:hover  i{
+    display: block;
+}
+
+/* what we do section end */
+
+
+
+/* our attorneys section start */
+.our-attorneys-section{
+padding: 200px 0px;
+background-image: url(images/attornyes-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.attorneys-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.attorneys-content{
+    max-width: 25%;
+    flex-basis: 25%;
+    margin-top: 60px;
+    justify-content: center;
+}
+span{
+    width: 50px;
+    height: 5px;
+    background-color: chocolate;
+    display: block;
+    padding: 1px;
+    margin: auto;
+}
+.ourattorneys-heading{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.heading-detail{
+    color: #ffffff70;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0px;
+}
+.attorneys-content a{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 20px;
+    display: block;
+}
+.ourattorneys{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    max-width: 70%;
+    flex-basis: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+.ourattorney{
+
+position: relative;
+}
+.ourattorney img{
+    width: 100%;
+}
+.box-cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000ff6b;
+    top: 0;
+    display: none;
+}
+.ourattorneys-name{
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    color: #fff;
+    width: 70%;
+    display: none;
+}
+.ourattorney:hover .box-cover{
+    display: block;
+}
+.ourattorney:hover .ourattorneys-name{
+    display: block;
+}
+
+.atorneys-line{
+    margin: 0%;
+
+}
+/* our attorneys section end */
+
+/* the languages section start */
+.the-languages{
+
+padding-top: 130px;
+}
+
+.languages-content{text-align: center;}
+.the-languages-heading{color: blue;font-size: 40px;font-weight: 900;padding-bottom: 40px;}
+.languages{
+
+display: grid;
+
+grid-template-columns: repeat(4, 1fr);
+
+grid-column-gap: 2em;
+}
+.language{
+
+}
+.language-span{
+    margin: auto;
+}
+.language h1{
+    color: blue;
+}
+.language p{
+
+text-align: justify;
+
+color: #0000007a;
+}
+
+.language a{
+
+color: #ff5e00;
+
+font-weight: 900;
+
+text-decoration: none;
+}
+/* the languages section end */
+
+/* contact us section start */
+.contactus-section{
+    background-color: #28377e;
+    padding: 70px 0px 95px 0px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.contactus-heading{
+    text-align: center;
+}
+
+}
+/* .contact-span{} */
+h2{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+
+}
+form{}
+.contactus-form{
+    text-align: center;
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-top: 30px;
+    margin: auto;
+}
+.contactus-form form input{
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #404d8c;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #fff;
+
+}
+.contactus-form form textarea{
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #404d8c;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    font-size: 17px;
+    color: white;
+}
+
+.contactus-form form input[type="submit"]{
+    width: auto;
+    background: #f2622c;
+    padding: 15px 50px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+/*  contact us section end*/
+
+
+/* footer section start */
+.footer-section{
+
+background: #000062;
+}
+.footer-content{
+
+flex-basis: 30%;
+
+max-width: 30%;
+}
+footer{
+
+display: flex;
+
+flex-wrap: wrap;
+
+padding: 25px 0px;
+
+align-items: center;
+
+justify-content: space-between;
+}
+.footer-content h1{
+
+color: #fff;
+
+font-size: 14px;
+}
+.footer-icon{
+    max-width: 25%;
+    flex-basis: 25%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.footer-icon i{color: #fff;}
+
+/* footer section end */
